@@ -33,7 +33,7 @@ function pickQuote() {
 }
 
 function draw() {
-  background(80, 220, 255); // set the background color
+  background(20, 30, 45); // set the background color
   drawQuote();  // draw the quote on screen
 }
 
