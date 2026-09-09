@@ -2,14 +2,14 @@
 // this is the only part of the file you need to edit!
 
 const quotes = [
-  { text: "the intersection of programming, design, and art", source: "Scott" },
-  { text: "a chance for code to be wrong", source: "Sara" },
-  { text: "surprise, exploration, and aesthetic exploration", source: "Sally" },
-  { text: "process over results", source: "Sam" },
-  { text: "form over function", source: "Sean" },
-  { text: "iterative and experimental", source: "Scooby" },
-  { text: "a community of practice", source: "Seth" },
-  { text: "an opportunity to stick it to the man", source: "Shifty-eyed Susan" }
+  { text: "the aesthetic value of code lies in its execution, not simply its written form", source: "Geoff Cox, Alex McLean & Adrian Ward" },
+  { text: "set into motion with some degree of autonomy", source: "Philip Galanter" },
+  { text: "the appropriate aesthetic criteria and the locus of creativity", source: "Margaret A. Boden & Ernest A. Edmonds" },
+  { text: "the description, analysis and comparison of generative artworks", source: "Alan Dorin" },
+  { text: "Obscurantism is dangerous. Show us your screens", source: "Adrian Ward" },
+  { text: "how people interact with the world and each other via code", source: "Alan F. Blackwell" },
+  { text: "the ability to read and write processes, to engage procedural representation and aesthetics", source: "Michael Mateas" },
+  { text: "Learning the language of creative coding is essential to expression in a digital medium", source: "Kylie Peppler & Yasmin Kafai" }
 ];
 // no need to edit anything below this line! 
 // if you have made an error, you can check your history to see what might have gone wrong
