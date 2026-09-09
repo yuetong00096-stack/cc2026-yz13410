@@ -21,8 +21,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   // Seed with millis() so each page load gives a different quote.
   randomSeed(millis());
-  textSize(32);
-  fill(10, 255, 10);
+  textSize(28);
+  fill(15, 5, 30);
   // calls the function to pick a quote
   pickQuote();
 }
@@ -33,7 +33,7 @@ function pickQuote() {
 }
 
 function draw() {
-  background(255, 20, 250); // set the background color
+  background(80, 220, 255); // set the background color
   drawQuote();  // draw the quote on screen
 }
 
