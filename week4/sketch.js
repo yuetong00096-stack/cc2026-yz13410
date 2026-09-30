@@ -14,13 +14,13 @@ function setup() {
 }
 
 function draw() {
-  clear();
+
   background(255);
 
   randomSeed(seed);
 
   if (exportSVG) {
-    beginRecordSvg(this, "CirclePattern_" + seed + ".svg");
+    beginRecordSvg(this, "MY Pattern_" + seed + ".svg");
   }
 
   myDrawing();
