@@ -126,11 +126,10 @@ function drawCircles() {
 
 function regenerate() {
   seed = round(millis());
-
   mode = (mode + 1) % 3;
 }
 
-function initiateSvgExport() {
+function saveSVG() {
   exportSVG = true;
 }
 
@@ -141,5 +140,5 @@ function UI() {
 
   saveButton = createButton("Export SVG");
   saveButton.position(120, height);
-  saveButton.mousePressed(initiateSvgExport);
+  saveButton.mousePressed(saveSVG);
 }
