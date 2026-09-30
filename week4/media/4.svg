@@ -1,0 +1,101 @@
+<!-- CirclePattern_12345.svg -->
+<!-- Generated using p5.js v.2.3.1 and p5.plotSvg v.0.3.0: -->
+<!-- A Plotter-Oriented SVG Exporter for p5.js -->
+<!-- Tue Sep 29 2026 23:38:13 GMT-0400 (北美东部夏令时间) -->
+<!-- DPI: 96 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:version="1.4" width="6.197916666666667in" height="8.020833333333334in" viewBox="0 0 595 770">
+  <style>
+      circle, ellipse, line, path, polygon, polyline, rect, quad, text {
+        fill: none;
+        stroke: black;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+    </style>
+<g>
+  <g transform="translate(297.500000, 385)">
+    <g>
+      <g transform="translate(47.946845, -65.993171)">
+        <g transform="rotate(36)">
+          <g transform="scale(0.911682, 0.911682)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="25.9255" style="stroke:#000000;"/><circle cx="-0.0206" cy="0.2417" r="28.8191" style="stroke:#000000;"/><circle cx="-0.0411" cy="0.4835" r="31.7127" style="stroke:#000000;"/><circle cx="-0.0822" cy="0.9670" r="37.5000" style="stroke:#000000;"/><circle cx="-0.1028" cy="1.2087" r="40.3936" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(77.579625, -25.207148)">
+        <g transform="rotate(72)">
+          <g transform="scale(1.044666, 1.044666)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="16.9385" style="stroke:#000000;"/><circle cx="-0.4694" cy="2.2638" r="22.7968" style="stroke:#000000;"/><circle cx="-0.9387" cy="4.5276" r="28.6551" style="stroke:#000000;"/><circle cx="-1.4081" cy="6.7915" r="34.5134" style="stroke:#000000;"/><circle cx="-1.8775" cy="9.0553" r="40.3718" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(77.579625, 25.207148)">
+        <g transform="rotate(108)">
+          <g transform="scale(0.694192, 0.694192)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="21.8181" style="stroke:#000000;"/><circle cx="-2.0562" cy="1.7634" r="24.8616" style="stroke:#000000;"/><circle cx="-6.1685" cy="5.2903" r="30.9488" style="stroke:#000000;"/><circle cx="-8.2246" cy="7.0537" r="33.9923" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(47.946845, 65.993171)">
+        <g transform="rotate(144)">
+          <g transform="scale(0.937037, 0.937037)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="10.2706" style="stroke:#000000;"/><circle cx="-0.9888" cy="-0.8943" r="15.4998" style="stroke:#000000;"/><circle cx="-1.9775" cy="-1.7886" r="20.7289" style="stroke:#000000;"/><circle cx="-2.9663" cy="-2.6830" r="25.9581" style="stroke:#000000;"/><circle cx="-3.9550" cy="-3.5773" r="31.1872" style="stroke:#000000;"/><circle cx="-4.9438" cy="-4.4716" r="36.4164" style="stroke:#000000;"/><circle cx="-5.9326" cy="-5.3659" r="41.6455" style="stroke:#000000;"/><circle cx="-6.9213" cy="-6.2603" r="46.8746" style="stroke:#000000;"/><circle cx="-7.9101" cy="-7.1546" r="52.1038" style="stroke:#000000;"/><circle cx="-8.8988" cy="-8.0489" r="57.3329" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(0.000000, 81.572046)">
+        <g transform="rotate(180)">
+          <g transform="scale(1.066828, 1.066828)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="22.4714" style="stroke:#000000;"/><circle cx="1.3071" cy="-0.2863" r="26.9876" style="stroke:#000000;"/><circle cx="2.6142" cy="-0.5726" r="31.5038" style="stroke:#000000;"/><circle cx="3.9213" cy="-0.8589" r="36.0200" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(-47.946845, 65.993171)">
+        <g transform="rotate(216)">
+          <g transform="scale(0.892858, 0.892858)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="16.8531" style="stroke:#000000;"/><circle cx="1.2113" cy="-1.7857" r="22.5928" style="stroke:#000000;"/><circle cx="2.4225" cy="-3.5715" r="28.3326" style="stroke:#000000;"/><circle cx="3.6338" cy="-5.3572" r="34.0723" style="stroke:#000000;"/><circle cx="4.8450" cy="-7.1429" r="39.8121" style="stroke:#000000;"/><circle cx="6.0563" cy="-8.9286" r="45.5518" style="stroke:#000000;"/><circle cx="7.2675" cy="-10.7144" r="51.2916" style="stroke:#000000;"/><circle cx="9.6901" cy="-14.2858" r="62.7711" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(-77.579625, 25.207148)">
+        <g transform="rotate(252)">
+          <g transform="scale(1.193367, 1.193367)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="19.3771" style="stroke:#000000;"/><circle cx="-0.5403" cy="1.8500" r="22.7441" style="stroke:#000000;"/><circle cx="-1.0806" cy="3.7000" r="26.1111" style="stroke:#000000;"/><circle cx="-1.6208" cy="5.5500" r="29.4781" style="stroke:#000000;"/><circle cx="-2.1611" cy="7.4000" r="32.8451" style="stroke:#000000;"/><circle cx="-2.7014" cy="9.2501" r="36.2121" style="stroke:#000000;"/><circle cx="-3.2417" cy="11.1001" r="39.5792" style="stroke:#000000;"/><circle cx="-3.7820" cy="12.9501" r="42.9462" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(-77.579625, -25.207148)">
+        <g transform="rotate(288)">
+          <g transform="scale(1.232244, 1.232244)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="23.7068" style="stroke:#000000;"/><circle cx="-2.0177" cy="0.5872" r="29.0953" style="stroke:#000000;"/><circle cx="-6.0532" cy="1.7617" r="39.8724" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(-47.946845, -65.993171)">
+        <g transform="rotate(324)">
+          <g transform="scale(1.205729, 1.205729)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="14.8377" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g transform="translate(-0.000000, -81.572046)">
+        <g transform="rotate(360)">
+          <g transform="scale(0.602879, 0.602879)">
+            <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="25.4221" style="stroke:#000000;"/><circle cx="2.7532" cy="2.1781" r="33.1660" style="stroke:#000000;"/></g></g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>

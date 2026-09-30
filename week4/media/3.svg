@@ -1,0 +1,113 @@
+<!-- CirclePattern_10699.svg -->
+<!-- Generated using p5.js v.2.3.1 and p5.plotSvg v.0.3.0: -->
+<!-- A Plotter-Oriented SVG Exporter for p5.js -->
+<!-- Tue Sep 29 2026 23:38:18 GMT-0400 (北美东部夏令时间) -->
+<!-- DPI: 96 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:version="1.4" width="6.197916666666667in" height="8.020833333333334in" viewBox="0 0 595 770">
+  <style>
+      circle, ellipse, line, path, polygon, polyline, rect, quad, text {
+        fill: none;
+        stroke: black;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+    </style>
+<g>
+  <g transform="translate(403.302939, 393.804085)">
+    <g transform="scale(1.070667, 1.070667)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="16.6566" style="stroke:#000000;"/><circle cx="0.3029" cy="-1.2450" r="19.1878" style="stroke:#000000;"/><circle cx="0.6057" cy="-2.4901" r="21.7191" style="stroke:#000000;"/><circle cx="0.9086" cy="-3.7351" r="24.2504" style="stroke:#000000;"/><circle cx="1.5143" cy="-6.2252" r="29.3129" style="stroke:#000000;"/><circle cx="1.8172" cy="-7.4703" r="31.8442" style="stroke:#000000;"/><circle cx="2.1201" cy="-8.7153" r="34.3754" style="stroke:#000000;"/><circle cx="2.4229" cy="-9.9604" r="36.9067" style="stroke:#000000;"/><circle cx="2.7258" cy="-11.2054" r="39.4380" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(509.207865, 260.712795)">
+    <g transform="scale(0.841277, 0.841277)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="13.8480" style="stroke:#000000;"/><circle cx="-2.2468" cy="-1.4887" r="17.9798" style="stroke:#000000;"/><circle cx="-4.4936" cy="-2.9775" r="22.1115" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(89.279478, 554.492504)">
+    <g transform="scale(0.509979, 0.509979)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="24.8824" style="stroke:#000000;"/><circle cx="-0.0459" cy="-3.8265" r="31.0703" style="stroke:#000000;"/><circle cx="-0.0688" cy="-5.7398" r="34.1643" style="stroke:#000000;"/><circle cx="-0.0917" cy="-7.6531" r="37.2582" style="stroke:#000000;"/><circle cx="-0.1146" cy="-9.5663" r="40.3522" style="stroke:#000000;"/><circle cx="-0.1376" cy="-11.4796" r="43.4461" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(341.639963, 414.566055)">
+    <g transform="scale(0.923695, 0.923695)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="18.4796" style="stroke:#000000;"/><circle cx="-1.6565" cy="1.9898" r="22.8091" style="stroke:#000000;"/><circle cx="-3.3131" cy="3.9795" r="27.1385" style="stroke:#000000;"/><circle cx="-4.9696" cy="5.9693" r="31.4679" style="stroke:#000000;"/><circle cx="-6.6262" cy="7.9591" r="35.7973" style="stroke:#000000;"/><circle cx="-8.2827" cy="9.9489" r="40.1268" style="stroke:#000000;"/><circle cx="-9.9393" cy="11.9386" r="44.4562" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(435.813603, 349.740757)">
+    <g transform="scale(1.024033, 1.024033)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="17.4855" style="stroke:#000000;"/><circle cx="-0.1851" cy="-0.2439" r="21.0895" style="stroke:#000000;"/><circle cx="-0.3702" cy="-0.4877" r="24.6936" style="stroke:#000000;"/><circle cx="-0.5552" cy="-0.7316" r="28.2977" style="stroke:#000000;"/><circle cx="-0.7403" cy="-0.9755" r="31.9017" style="stroke:#000000;"/><circle cx="-0.9254" cy="-1.2193" r="35.5058" style="stroke:#000000;"/><circle cx="-1.2955" cy="-1.7071" r="42.7140" style="stroke:#000000;"/><circle cx="-1.4806" cy="-1.9510" r="46.3180" style="stroke:#000000;"/><circle cx="-1.6657" cy="-2.1948" r="49.9221" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(346.162555, 138.724663)">
+    <g transform="scale(0.847438, 0.847438)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="13.3736" style="stroke:#000000;"/><circle cx="0.0571" cy="-0.3102" r="18.5247" style="stroke:#000000;"/><circle cx="0.1141" cy="-0.6204" r="23.6757" style="stroke:#000000;"/><circle cx="0.1712" cy="-0.9306" r="28.8268" style="stroke:#000000;"/><circle cx="0.2853" cy="-1.5511" r="39.1289" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(357.721407, 203.790579)">
+    <g transform="scale(0.594415, 0.594415)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="20.1521" style="stroke:#000000;"/><circle cx="1.2259" cy="-1.2343" r="23.0576" style="stroke:#000000;"/><circle cx="2.4519" cy="-2.4686" r="25.9630" style="stroke:#000000;"/><circle cx="3.6778" cy="-3.7029" r="28.8685" style="stroke:#000000;"/><circle cx="4.9038" cy="-4.9372" r="31.7739" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(335.878768, 96.794475)">
+    <g transform="scale(0.606852, 0.606852)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="24.7446" style="stroke:#000000;"/><circle cx="-1.9441" cy="0.5874" r="28.9553" style="stroke:#000000;"/><circle cx="-3.8883" cy="1.1748" r="33.1660" style="stroke:#000000;"/><circle cx="-7.7765" cy="2.3497" r="41.5875" style="stroke:#000000;"/><circle cx="-11.6648" cy="3.5245" r="50.0090" style="stroke:#000000;"/><circle cx="-13.6089" cy="4.1119" r="54.2197" style="stroke:#000000;"/><circle cx="-15.5531" cy="4.6993" r="58.4304" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(311.219806, 221.461707)">
+    <g transform="scale(1.275494, 1.275494)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="13.5580" style="stroke:#000000;"/><circle cx="2.4613" cy="0.8603" r="16.4324" style="stroke:#000000;"/><circle cx="4.9226" cy="1.7207" r="19.3067" style="stroke:#000000;"/><circle cx="7.3839" cy="2.5810" r="22.1811" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(229.623392, 396.697692)">
+    <g transform="scale(0.783259, 0.783259)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="23.7262" style="stroke:#000000;"/><circle cx="1.5846" cy="-0.6269" r="27.3553" style="stroke:#000000;"/><circle cx="4.7538" cy="-1.8807" r="34.6137" style="stroke:#000000;"/><circle cx="6.3383" cy="-2.5076" r="38.2428" style="stroke:#000000;"/><circle cx="7.9229" cy="-3.1345" r="41.8720" style="stroke:#000000;"/><circle cx="9.5075" cy="-3.7614" r="45.5012" style="stroke:#000000;"/><circle cx="11.0921" cy="-4.3883" r="49.1303" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(316.346624, 415.054554)">
+    <g transform="scale(0.922685, 0.922685)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="21.8138" style="stroke:#000000;"/><circle cx="-0.4112" cy="-0.3851" r="26.6330" style="stroke:#000000;"/><circle cx="-0.8223" cy="-0.7702" r="31.4523" style="stroke:#000000;"/><circle cx="-1.2335" cy="-1.1554" r="36.2715" style="stroke:#000000;"/><circle cx="-1.6447" cy="-1.5405" r="41.0908" style="stroke:#000000;"/><circle cx="-2.4670" cy="-2.3107" r="50.7293" style="stroke:#000000;"/><circle cx="-2.8782" cy="-2.6959" r="55.5486" style="stroke:#000000;"/><circle cx="-3.2893" cy="-3.0810" r="60.3678" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(230.248332, 264.189890)">
+    <g transform="scale(1.086432, 1.086432)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="16.7524" style="stroke:#000000;"/><circle cx="-2.4568" cy="1.7314" r="20.0094" style="stroke:#000000;"/><circle cx="-4.9137" cy="3.4628" r="23.2664" style="stroke:#000000;"/><circle cx="-7.3705" cy="5.1942" r="26.5233" style="stroke:#000000;"/><circle cx="-12.2842" cy="8.6571" r="33.0373" style="stroke:#000000;"/><circle cx="-14.7411" cy="10.3885" r="36.2943" style="stroke:#000000;"/><circle cx="-17.1979" cy="12.1199" r="39.5513" style="stroke:#000000;"/><circle cx="-19.6547" cy="13.8513" r="42.8083" style="stroke:#000000;"/><circle cx="-22.1116" cy="15.5827" r="46.0653" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(149.785091, 481.024202)">
+    <g transform="scale(0.876313, 0.876313)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="23.2250" style="stroke:#000000;"/><circle cx="-2.3221" cy="1.0965" r="26.9215" style="stroke:#000000;"/><circle cx="-4.6441" cy="2.1930" r="30.6181" style="stroke:#000000;"/><circle cx="-6.9662" cy="3.2896" r="34.3146" style="stroke:#000000;"/><circle cx="-9.2883" cy="4.3861" r="38.0112" style="stroke:#000000;"/><circle cx="-11.6104" cy="5.4826" r="41.7077" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(103.903293, 611.313340)">
+    <g transform="scale(1.060508, 1.060508)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="13.7969" style="stroke:#000000;"/><circle cx="-0.7492" cy="-2.3580" r="18.6629" style="stroke:#000000;"/><circle cx="-1.4984" cy="-4.7160" r="23.5288" style="stroke:#000000;"/><circle cx="-2.2476" cy="-7.0739" r="28.3948" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(116.762251, 661.285164)">
+    <g transform="scale(0.412817, 0.412817)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="14.2467" style="stroke:#000000;"/><circle cx="1.4426" cy="1.9321" r="16.8012" style="stroke:#000000;"/><circle cx="2.8851" cy="3.8643" r="19.3557" style="stroke:#000000;"/><circle cx="5.7703" cy="7.7286" r="24.4647" style="stroke:#000000;"/><circle cx="7.2128" cy="9.6607" r="27.0192" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+<g>
+  <g transform="translate(417.012296, 165.688577)">
+    <g transform="scale(1.033427, 1.033427)">
+      <g id="stroke-color-group--000000" inkscape:groupmode="layer" inkscape:label="1_stroke-color-group--000000"><circle cx="0" cy="0" r="12.5099" style="stroke:#000000;"/><circle cx="1.2682" cy="-0.0071" r="16.5608" style="stroke:#000000;"/></g></g>
+  </g>
+</g>
+</svg>
