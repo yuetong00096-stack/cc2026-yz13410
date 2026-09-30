@@ -1,7 +1,3 @@
-
-
-p5.disableFriendlyErrors = true;
-
 let bDoExportSvg = false;
 let myRandomSeed = 12345;
 let patternMode = 0;
