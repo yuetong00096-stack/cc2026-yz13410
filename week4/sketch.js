@@ -56,32 +56,33 @@ function myDrawing() {
   }
 
   // square pattern
-  if (mode == 1) {
-    let cols = 4;
-    let rows = 5;
-    let spacing = random(65, 90);
+ if (mode == 1) {
+  let cols = 4;
+  let rows = 5;
+  let spacing = random(65, 90);
 
-    let startX = width / 2 - ((cols - 1) * spacing) / 2;
-    let startY = height / 2 - ((rows - 1) * spacing) / 2;
+  let startX = width / 2 - ((cols - 1) * spacing) / 2;
+  let startY = height / 2 - ((rows - 1) * spacing) / 2;
 
-    for (let x = 0; x < cols; x++) {
-      for (let y = 0; y < rows; y++) {
-        push();
+  for (let i = 0; i < cols; i++) {
+    for (let j = 0; j < rows; j++) {
 
-        translate(
-          startX + x * spacing,
-          startY + y * spacing
-        );
+      push();
 
-        let s = random(0.45, 1.15);
-        scale(s);
+      translate(
+        startX + i * spacing,
+        startY + j * spacing
+      );
 
-        drawCircles();
+      let s = random(0.45, 1.15);
+      scale(s);
 
-        pop();
-      }
+      drawCircles();
+
+      pop();
     }
   }
+}
 
   // free pattern
   if (mode == 2) {
