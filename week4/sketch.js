@@ -46,7 +46,7 @@ function myDrawing() {
 
     setCenter(width / 2, height / 2);//Set center for polar drawing
 
-    polarDrawCallback(count, 20, radius, function() {//Draw circles in polar coordinates
+    polarDrawCallback(count, 20, radius, function() {
       let s = random(0.45, 1.3);//Set random scale for each circle
 
       scale(s);//Scale the circle
