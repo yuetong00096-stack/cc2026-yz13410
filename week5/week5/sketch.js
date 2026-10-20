@@ -1,46 +1,49 @@
-
-const bluePalette = [
+const bluePalette = [// 16 blue colors, from light to dark
   "#91A9B3", "#849FAB", "#7795A5", "#6A8C9E",
   "#5D8296", "#52788E", "#486E85", "#3F647C",
   "#385B73", "#32526B", "#2E4963", "#2A415B",
   "#273953", "#24324B", "#212B43", "#1E243B"
-]; // 16 shades of blue
+]; 
+
 
 function setup() {
   let canvas = createCanvas(600, 600);
-  canvas.parent('week5-sketch'); // do not delete - links to your index.html pages (description)
+  canvas.parent('week5-sketch'); // do not delete - links to your index.html pages
 
-  angleMode(DEGREES);// Change the mode to DEGREES
-  textFont("monospace");// Use a monospace font for the text
+  angleMode(DEGREES);
+  textFont("Helvetica");
 }
+
 
 function draw() {
   background("#F2EDE1");
 
+  // current time
   let h = hour();
   let m = minute();
-  let s = second();// Get the current hour, minute, and second
+  let s = second();
 
-  // Seconds: 1 layer at 00 seconds, 60 layers at 59 seconds
+
+  // Seconds
+  // More blue layers appear as the seconds increase
   noStroke();
 
-  for (let i = 0; i <= s; i++) {// Loop through the number of seconds
-    let inset = i * 3.4;// Calculate the inset for each layer
-    let colorIndex = i;// Use the loop index to select a color from the palette
+  for (let i = 0; i <= s; i++) {
+    let inset = i * 3.4;
+    let colorIndex = i;
 
-    // Start the color cycle again after 30 layers
-    if (colorIndex >= 30) {// If the color index exceeds 30, reset it to create a cycle
-      colorIndex = colorIndex - 30;// Reset the color index to create a cycle
+    // After reaching the darkest blue, start going back
+    if (colorIndex >= 30) {
+      colorIndex = colorIndex - 30;
     }
 
-    // Change from dark blue back to light blue
-    if (colorIndex > 15) {// If the color index exceeds 15, reverse the order to create a gradient effect
-      colorIndex = 30 - colorIndex;// Reverse the order to create a gradient effect
+    if (colorIndex > 15) {
+      colorIndex = 30 - colorIndex;
     }
 
-    fill(bluePalette[colorIndex]);
+    fill(bluePalette[colorIndex]);//Set fill color based on the current second
 
-    // Draw each rectangle slightly smaller
+    // each rectangle gets smaller and moves toward the center
     rect(
       141 + inset,
       8 + inset,
@@ -49,40 +52,48 @@ function draw() {
     );
   }
 
-  // Hours: change the red shade every 6 hours
-  if (h < 6) {
-    fill("#7D171D"); // 00:00-05:59 dark red
-  } else if (h < 12) {
-    fill("#F16A52"); // 06:00-11:59 coral red
-  } else if (h < 18) {
-    fill("#E52620"); // 12:00-17:59 bright red
-  } else {
-    fill("#A7352B"); // 18:00-23:59 brick red
-  }
 
-  rect(0, 450, 135, 150);// Draw the red rectangle for hours
+  // Hours
+  // The red slowly changes from dark red to light red during the day
+  let red1 = color("#7D171D");
+  let red2 = color("#F16A52");
 
-  // Minutes: fill the yellow rectangle from bottom to top
+  // 24 hours = 1440 minutes, map the time of day from 0 to 1
+  let transition = map(h * 60 + m, 0, 1440, 0, 1);
+
+  // lerpColor reference from the Week 6 class example:
+  // Extended: Transitioning between color and size
+  // https://editor.p5js.org/melodyloveless/sketches/o7dNhl_ib
+  fill(lerpColor(red1, red2, transition));
+
+  rect(0, 450, 135, 150);
+
+
+  // Minutes
+  // the yellow part grows upward
   let minuteHeight = map(m, 0, 60, 0, 136);
 
   fill("#EAC84F");
-  rect(546, 592 - minuteHeight, 46, minuteHeight);// Draw the yellow rectangle for minutes
+  rect(546, 592 - minuteHeight, 46, minuteHeight);
 
-  // Add a leading zero to minutes and seconds below 10
+
+  // I wanted the time to always show two digits for minutes and seconds
   let minuteText = m;
   let secondText = s;
 
   if (m < 10) {
-    minuteText = "0" + m;// Add a leading zero to minutes below 10
+    minuteText = "0" + m;
   }
 
   if (s < 10) {
-    secondText = "0" + s;// Add a leading zero to seconds below 10
+    secondText = "0" + s;
   }
 
-  // Place the text vertically from the top-right of the left cell
+
+  // Time and date on the left side
   push();
-  translate(108, 218);// Move the origin to the top-right of the left cell
+
+  translate(108, 218);
   rotate(90);
   textAlign(LEFT, CENTER);
 
@@ -90,13 +101,13 @@ function draw() {
   textSize(24);
   text(h + ":" + minuteText + ":" + secondText, 0, 0);
 
-  // Date format: month.day.year
   textSize(14);
   text(month() + "." + day() + "." + year(), 0, 30);
 
   pop();
 
-  // Black dividers
+
+  // black dividers
   stroke("#202320");
   strokeWeight(12);
 
@@ -106,7 +117,8 @@ function draw() {
   line(67.5, 0, 67.5, 195);
   line(540, 450, 540, 600);
 
-  // Outer border
+
+  // outside border
   noFill();
   strokeWeight(8);
   rect(4, 4, 592, 592);
