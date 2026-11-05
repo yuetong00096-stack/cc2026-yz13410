@@ -58,10 +58,11 @@ function draw() {
   let red1 = color("#7D171D");
   let red2 = color("#F16A52");
 
+  // Week 6 added
   // 24 hours = 1440 minutes, map the time of day from 0 to 1
   let transition = map(h * 60 + m, 0, 1440, 0, 1);
 
-  // lerpColor reference from the Week 6 class example:
+  // Week 6 added
   // Extended: Transitioning between color and size
   // https://editor.p5js.org/melodyloveless/sketches/o7dNhl_ib
   fill(lerpColor(red1, red2, transition));
