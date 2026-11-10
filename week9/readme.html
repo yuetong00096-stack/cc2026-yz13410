@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="sketch.js"></script>
+  <title>Dancing Stars</title> <!--Update your title here-->
+  <!--Add style to your code within the style tag <style></style>
+  Read the W3Schools CSS Intro for more: https://www.w3schools.com/css/css_intro.asp 
+  -->
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2em;
+      /*padding: 1em;*/
+      color: #1d1f8a;
+      background-color: #a6c7e9;
+    }
+
+    a {
+      color: rgb(160, 83, 255);
+    }
+
+    a:hover {
+      text-decoration: dashed;
+    }
+
+    h1 {font-size: 32px;
+      color: rgb(86, 83, 174);
+      text-shadow: 2px 2px 4px #6480e4;
+
+      /* Insert your own style here */
+    }
+
+    h2 { color: rgb(80, 125, 231);
+
+      /* Insert your own style here */
+    }
+  </style>
+</head>
+
+<body>
+    <h1>Dancing Stars</h1>
+    <h2>About This Work</h2>
+    <p>I created a starry sky that changes in response to music. The scene features 20 five-pointed stars that fall slowly at the same speed, though each star is a different size and color. As stars fall off the screen, new ones appear at the top, keeping the scene in constant motion. Viewers can tap the screen to play or pause the music. I wanted this piece to feel light and relaxed, like the stars are dancing to the music.</p>
+
+    <h2>Audio Source and Data Analysis</h2>
+    <p>The music I used is “Dreaming Through Dusk, Lofi beats” by RibhavAgrawal, available on Pixabay. Initially, I chose a track with a faster tempo, but after incorporating it into the piece, I felt it didn’t quite match the slowly falling stars and didn’t sound as soothing. Later, I switched to this more soothing track. It has a rhythm and variations in volume, which better suit the starry night atmosphere I was aiming for. I used p5.Amplitude and getLevel() from p5.sound to measure the music’s amplitude, that is, how loud or soft the sound is while playing.</p>
+
+    <h2>How Sound Affects the Visuals</h2>
+    <p>The volume of the sound affects three things: the size of the stars, their color, and the background color. Each star already has its own size; when the sound gets louder, the stars grow larger than their original size. When the sound is quieter, the background is blue, and the stars are dark blue-gray. When the sound is louder, the background turns pink, and the stars display their own randomly selected pastel colors. I use these noticeable changes to show when the music gets louder or quieter, while keeping the stars falling slowly.</p>
+
+    <p>In the code, I use the Star class to create stars and random() to determine their horizontal position, initial size, and color. I store the stars in an array, using shift() to remove stars that have fallen off the screen and push() to add new ones. The five-pointed star shapes are drawn using polarTriangles() from p5.Polar. For the sound, I use async, await, and loadSound() to load the music; p5.Amplitude, sound.connect(), and getLevel() to retrieve the amplitude; and map() to apply the measured values to the stars’ size changes. When the viewer clicks on the screen, mousePressed() controls the music via isPlaying(), play(), and pause().</p>
+
+    <h2>Sources</h2>
+    <p>My main learning resource was our Week 12 class handout, Working with sound in p5.js. I learned isPlaying() and pause() from the official p5.SoundFile reference. The music is from Pixabay, composed by RibhavAgrawal. I used p5.js, p5.sound, and p5.Polar to create this piece, and I also referred to the course material on sound processing as well as Promises, async, and await. Specific links to these resources will be provided in the References section below.</p>
+    <p><a href="index.html" target="_blank">Link to sketch</a></p>
+
+   <h2>References</h2>
+   <ul>
+    <li><a href="https://docs.google.com/document/d/1ulK8Uye1ImBhstP3M6S7NdVq0_-VxLAt_UugBzXpHYE/edit" target="_blank">Working with sound in p5.js</a></li>
+    <li><a href="https://cdn.jsdelivr.net/npm/p5.sound@0.4.2/dist/p5.sound.min.js" target="_blank">p5.sound.js</a></li>
+    <li><a href="https://p5js.org/reference/p5.SoundFile/isPlaying/" target="_blank">p5.SoundFile isPlaying()</a></li>
+    <li><a href="https://p5js.org/reference/p5.SoundFile/pause/" target="_blank">p5.SoundFile pause()</a></li>
+    <li><a href="https://pixabay.com/music/beats-dreaming-through-dusk-lofi-beats-281206/" target="_blank">Dreaming Through Dusk by RibhavAgrawal</a></li>
+    <li><a href="https://idmp5.github.io/creative-coding/sound-processing/" target="_blank">Sound Processing</a></li>
+    <li><a href="https://idmp5.github.io/coding/promise-await/" target="_blank">Promise, async, and await</a></li>
+   </ul>
+
+    <!--Replace with your own image-->
+    <!--You can limit the size of your displayed image using "height" or "width" -->
+    <img src="media/1.jpg" height="400px" alt="This the alt description of this image. This is a picture of a cat."></img>
+</body>
+</html>
