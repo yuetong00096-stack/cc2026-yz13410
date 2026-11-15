@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apple Picking</title>
+  <!--Add style to your code here-->
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2em;
+      /*padding: 1em;*/
+      color: #453b30;
+      background-color: #eae7bd;
+    }
+
+    a {
+      color: #a83d32;
+    }
+
+    a:hover {
+      text-decoration: dashed;
+    }
+
+    h1 {font-size: 32px;
+      color: #8e3b32;
+      text-shadow: 2px 2px 4px #d9cf97;
+
+      /* Insert your own style here */
+    }
+
+    h2 { color: #52643d;
+
+      /* Insert your own style here */
+    }
+  </style>
+</head>
+<body>
+    <h1>Apple Picking</h1>
+    <p><a href="index.html">View my sketch</a></p>
+
+    <h2>About This Work</h2>
+    <p>Apple Picking is an interactive piece controlled with both hands. Apples appear on the live camera feed as your fingers move, and each apple varies slightly in size and color. I love the feeling of the apples appearing over and over again.</p>
+
+    <h2>Design and Use It</h2>
+    <p>When using this feature, make sure the camera can see both of your hands. Moving your right index finger will draw an apple. Your left index finger holds a fruit basket; bring it close to the apple to pick it up. I’ve assigned different tasks to each hand so that both drawing apples and picking apples can be done using gestures. The screen displays the live video feed but does not show the green detection points from the original template.</p>
+
+    <h2>Coding</h2>
+    <p>I use HandPose to detect the position of the hand. The code reads the handedness to determine whether a left or right hand has been detected. It also reads the position of the index finger tip. I use the Apple class to create each apple. The random() function selects the size and color when an apple is generated. I place the apples in the apples array. When the right index finger moves more than 30 pixels away from the last position where an apple was drawn, push() adds an apple. When there are more than 25 apples, shift() removes the oldest one. When the left hand appears, the code checks the distance between each apple and the basket. A new array keeps track of the apples that haven’t touched the basket.</p>
+
+    <h2>Process and References</h2>
+    <p>I started by drawing two versions of a sketch on paper. The first version mainly involved drawing an apple with my finger. The second version added a fruit basket controlled by my left hand. Later, I made the apple smaller and changed its color to one that more closely resembled a real apple. The ml5.js HandPose camera example served as the starting point for my code. From this, I learned the basics of working with the camera, as well as how to use detectStart() and gotHands(). The ml5.js getting started tutorial demonstrated how to read index_finger_tip.x and .y. The p5.js HandPose tutorial explained handedness. The p5.js dist() reference page explained how to calculate the distance between two positions. I used dist() to control the spacing between the apples and to determine whether the fruit basket was close enough to the apples. My class notes helped me review arrays and classes. I designed the division of labor based on these methods. The right hand draws apples, and the left hand collects them.</p>
+
+   <h2>Resources</h2>
+   <ul>
+    <li><a href="https://editor.p5js.org/ml5/sketches/QGH3dwJ1A" target="_blank">ml5.js HandPose Webcam Example</a> I used this as the starting point for my sketch.</li>
+    <li><a href="https://docs.ml5js.org/#/reference/handpose" target="_blank">ml5.js HandPose Reference</a> I checked how to load HandPose and detect hands.</li>
+    <li><a href="https://p5js.org/tutorials/speak-with-your-hands/#step-2---lets-understand-the-data" target="_blank">p5.js HandPose Tutorial</a> I learned how handedness identifies the left and right hands.</li>
+    <li><a href="https://p5js.org/reference/p5/dist/" target="_blank">p5.js dist() Reference</a> I used dist() to decide when to add or collect an apple.</li>
+   </ul>
+
+    <img src="media/111.jpg" alt="My sketches showing one hand drawing apples and the other moving a basket" style="width: 100%; max-width: 600px; height: auto;">
+</body>
+</html>
