@@ -43,9 +43,9 @@ function draw() {
   let basketY = 0;
 
   // Check both hands
-  // HandPose gives a handedness value for each detected hand.
+  // HandPose gives a handedness value for each detected hand！
   // https://p5js.org/tutorials/speak-with-your-hands/#step-2---lets-understand-the-data
-  for (let i = 0; i < hands.length; i++) {
+   for (let i = 0; i < hands.length; i++) {
     if (hands[i].handedness === "Right") {
       rightHandFound = true;
 
@@ -68,6 +68,8 @@ function draw() {
     }
 
     // The basket follows the left finger
+    //  Get the index finger tip position, as shown in the ml5.js tutorial:
+    // https://docs.ml5js.org/
     if (hands[i].handedness === "Left") {
       leftHandFound = true;
       basketX = hands[i].index_finger_tip.x;
